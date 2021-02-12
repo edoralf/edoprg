@@ -1,0 +1,7 @@
+{
+  "name": "eDoc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
