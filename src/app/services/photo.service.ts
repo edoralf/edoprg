@@ -1,13 +1,13 @@
 // camera.service.ts
 import { Injectable } from '@angular/core';
 import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
-import { MediaCapture, MediaFile, CaptureError, CaptureImageOptions } from '@ionic-enterprise/media-capture/ngx';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class PhotoService {
-  constructor(private camera: Camera,private mediaCapture: MediaCapture) { }
+  constructor(private camera: Camera) { }
 
   takePicture() {
     const options: CameraOptions = {
